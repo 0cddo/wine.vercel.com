@@ -1,4 +1,5 @@
-const RedsPage = () => {
+import type { NextPage } from "next";
+const RedsWinePage: NextPage = () => {
   return (
     <div>
       <h1>Reds Wines</h1>
@@ -6,4 +7,4 @@ const RedsPage = () => {
   );
 };
 
-export default RedsPage;
+export default RedsWinePage;

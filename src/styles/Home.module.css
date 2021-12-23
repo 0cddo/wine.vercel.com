@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: rgb(240, 240, 240);
 }
 
 .main {
@@ -28,9 +29,8 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title strong {
+  color: #ff4676;
 }
 
 .title a:hover,
@@ -53,7 +53,8 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .code {
@@ -82,25 +83,37 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #de5b7e;
+}
+.card img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #fff;
+  border: 2px solid #87193c;
+  background-color: #87193c;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .logo {

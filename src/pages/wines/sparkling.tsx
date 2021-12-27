@@ -1,9 +1,13 @@
-const Sparkling = () => {
+import type { NextPage } from "next";
+import { WineContainers } from "../../components/WineContainers";
+
+const SparklingWinePage: NextPage = () => {
+  const name = "Sparkling";
   return (
     <div>
-      <h1>Sparkling Wine</h1>
+      <WineContainers name={name} />
     </div>
   );
 };
 
-export default Sparkling;
+export default SparklingWinePage;

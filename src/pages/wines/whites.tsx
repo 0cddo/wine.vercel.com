@@ -1,9 +1,14 @@
-const Whites = () => {
+import type { NextPage } from "next";
+import { WineContainers } from "../../components/WineContainers";
+
+const WhitesWinePage: NextPage = () => {
+  const name = "white";
+
   return (
     <div>
-      <h1>White Wines</h1>
+      <WineContainers name={name} />
     </div>
   );
 };
 
-export default Whites;
+export default WhitesWinePage;

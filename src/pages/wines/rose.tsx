@@ -1,9 +1,13 @@
-const Rose = () => {
+import type { NextPage } from "next";
+import { WineContainers } from "../../components/WineContainers";
+
+const RoseWinePage: NextPage = () => {
+  const name = "rose";
   return (
     <div>
-      <h1>Rose Wine</h1>
+      <WineContainers name={name} />
     </div>
   );
 };
 
-export default Rose;
+export default RoseWinePage;
